@@ -45,5 +45,3 @@ of the .deb, so, you may have to install some of them yourself. This should do t
 ```
 sudo apt-get install libssl1.0.0 libjpeg8 libpng12-0 libicu48 #libssl provides libcrypto
 ```
-
-`libicu48` is likely to be 
