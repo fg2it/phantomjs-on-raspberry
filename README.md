@@ -1,6 +1,7 @@
 # phantomjs-on-raspberry (raspbian wheezy and jessie)
 [Phantomjs](http://phantomjs.org/) *unofficial* binaries for arm based raspberry pi 2.
 
+
 PhantomJS doesn't provide packages for arm, so these packages are here
 to allow easy install of recent versions.
 
@@ -11,9 +12,11 @@ if you are not confortable with unofficial packages. Debian packages were create
 `fpm`.
 
 ## Caveat
-Builds are based on v2.0 of PhantomJS which is not yet as static as the developpers want it to be
-(see this [issue](https://github.com/ariya/phantomjs/issues/12948)). As a consequence, the binary
-in this repo have more dependencies than they should. 
+Beside the last build, the others are based on v2.0 of PhantomJS which is not
+yet as static as the developpers want it to be (see this
+[issue](https://github.com/ariya/phantomjs/issues/12948)). As a consequence, the
+binary in this repo have more dependencies than they should. In addition, this
+prevents the use of a single binary working for both wheezy and jessie.
 
 ## License
 see Phantomjs [license](https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD).
