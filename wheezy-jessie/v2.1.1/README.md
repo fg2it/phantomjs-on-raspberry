@@ -41,14 +41,14 @@ docker build --build-arg BUILDOP='-j 2' -t phjs-build .
 You should only have to download the binary and install the dependencies:
 ```bash
 sudo apt-get install libfontconfig
-curl -o /tmp/phantomjs -sSL https://github.com/fg2it/phantomjs-on-raspberry/releases/download/v2.1.1/phantomjs
+curl -o /tmp/phantomjs -sSL https://github.com/fg2it/phantomjs-on-raspberry/releases/download/v2.1.1-wheezy-jessie/phantomjs
 sudo mv /tmp/phantomjs /usr/local/bin/phantomjs
 ```
 
 ### Package
 ```bash
 sudo apt-get install libfontconfig
-curl -o /tmp/phantomjs_2.1.1_armhf.deb -sSL https://github.com/fg2it/phantomjs-on-raspberry/releases/download/v2.1.1/phantomjs_2.1.1_armhf.deb
+curl -o /tmp/phantomjs_2.1.1_armhf.deb -sSL https://github.com/fg2it/phantomjs-on-raspberry/releases/download/v2.1.1-wheezy-jessie/phantomjs_2.1.1_armhf.deb
 sudo dpkg -i /tmp/phantomjs_2.1.1_armhf.deb
 ```
 The package will install `phantomjs` in `/usr/local/bin`.
