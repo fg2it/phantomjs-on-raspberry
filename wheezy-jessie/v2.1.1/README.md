@@ -1,5 +1,5 @@
-# phantomjs-on-raspberry (pi 2/*wheezy and jessie*)
-[Phantomjs](http://phantomjs.org/) *unofficial* binaries for arm based raspberry pi 2 running raspbian/wheezy or raspbian/jessie.
+# phantomjs-on-raspberry (pi 2 and pi 3/*wheezy and jessie*)
+[Phantomjs](http://phantomjs.org/) *unofficial* binaries for arm based raspberry pi 2 and pi 3 running raspbian/wheezy or raspbian/jessie.
 
 ## Binary
 Binary build from commit tag
@@ -11,8 +11,7 @@ As can be seen from this `Dockerfile`, the base image used is resin/armv7hf-
 debian:wheezy. The build was not done on a Pi but in x64-debian-vm running the
 docker container. Nothing fancy on the debian-vm, but the resin container comes
 with a nice feature: it inclures a `qemu-arm-static` binary. Thus you can run
-it on a x64 cpu easily. The details are in a [blog post](https://resin.io/blog
-/building-arm-containers-on-any-x86-machine-even-dockerhub/) of resin.
+it on a x64 cpu easily. The details are in a [blog post](https://resin.io/blog/building-arm-containers-on-any-x86-machine-even-dockerhub/) of resin.
 
 Basically, for us, mere mortal (well, not exactly since you need to have root
 power), we just have to do:
