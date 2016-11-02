@@ -27,7 +27,7 @@ File Attributes
   Tag_ABI_HardFP_use: SP and DP
   Tag_ABI_VFP_args: VFP registers
   Tag_DIV_use: Not allowed
-`̀``
+```
 
 ## Do it yourself
 I mearly adapt the
