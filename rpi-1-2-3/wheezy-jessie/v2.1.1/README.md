@@ -83,7 +83,7 @@ sudo chmod a+x /usr/local/bin/phantomjs
 
 ### Package
 The package will install `phantomjs` in `/usr/local/bin` and depends on :
-> libfontconfig1, libfreetype6, libpng12-0
+> libfontconfig1, libfreetype6
 
 ```bash
 sudo apt-get install libfontconfig1 libfreetype6
