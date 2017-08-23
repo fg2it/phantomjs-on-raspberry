@@ -67,7 +67,6 @@ docker build --build-arg BUILDOP='-j 2' -t phjs-build .
 > linux-vdso.so.1
 > libfontconfig.so.1
 > libfreetype.so.6
-> libpng12.so.0
 > libz.so.1
 > libdl.so.2
 > librt.so.1
@@ -82,14 +81,14 @@ docker build --build-arg BUILDOP='-j 2' -t phjs-build .
 This should do the job :
 
 ```bash
-sudo apt-get install libfontconfig1 libfreetype6 libpng12-0 #libssl provides libcrypto
+sudo apt-get install libfontconfig1 libfreetype6 #libssl provides libcrypto
 ```
 
 ## PhantomJs Install
 ### Manual
 You should only have to download the binary and install the dependencies:
 ```bash
-sudo apt-get install libfontconfig1 libfreetype6 libpng12-0
+sudo apt-get install libfontconfig1 libfreetype6
 curl -o /tmp/phantomjs -sSL https://github.com/fg2it/phantomjs-on-raspberry/releases/download/v2.1.1-wheezy-jessie/phantomjs
 sudo mv /tmp/phantomjs /usr/local/bin/phantomjs
 sudo chmod a+x /usr/local/bin/phantomjs
@@ -97,10 +96,10 @@ sudo chmod a+x /usr/local/bin/phantomjs
 
 ### Package
 The package will install `phantomjs` in `/usr/local/bin` and depends on :
-> libfontconfig1, libfreetype6, libpng12-0
+> libfontconfig1, libfreetype6
 
 ```bash
-sudo apt-get install libfontconfig1 libfreetype6 libpng12-0
+sudo apt-get install libfontconfig1 libfreetype6
 curl -o /tmp/phantomjs_2.1.1_armhf.deb -sSL https://github.com/fg2it/phantomjs-on-raspberry/releases/download/v2.1.1-wheezy-jessie/phantomjs_2.1.1_armhf.deb
 sudo dpkg -i /tmp/phantomjs_2.1.1_armhf.deb
 ```
