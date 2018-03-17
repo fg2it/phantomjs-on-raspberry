@@ -39,10 +39,10 @@ but with the following changes :
 
 ### Dockerfile
 The `Dockerfile` is (almost) the one used to build [v2.1.1-stretch-arm64][release]
-(the released binary was build using `aarch64/debian:stretch` with `qemu-aarch64-static` from [multiarch][multiarch]).
+(the released binary was build using `aarch64/debian:stretch` with `qemu-aarch64-static` 2.11.0 from [multiarch][multiarch]).
 
-[release]: https://github.com/fg2it/grafana-on-raspberry/releases/tag/v2.1.1-stretch-arm64
-[multiarch]: https://github.com/multiarch/qemu-user-static/releases/download/v2.11.0/qemu-aarch64-static
+[release]: https://github.com/fg2it/phantomjs-on-raspberry/releases/tag/v2.1.1-stretch-arm64
+[multiarch]: https://github.com/multiarch/qemu-user-static/releases/v2.11.0/
 
 Before building the image, you need to enable arm64 support in
 ```bash
