@@ -1,4 +1,4 @@
-# phantomjs-on-raspberry [![Release](https://img.shields.io/github/release/fg2it/phantomjs-on-raspberry.svg)](https://github.com/fg2it/phantomjs-on-raspberry/releases/latest)
+# phantomjs-on-raspberry (and experimental arm64) [![Release](https://img.shields.io/github/release/fg2it/phantomjs-on-raspberry.svg)](https://github.com/fg2it/phantomjs-on-raspberry/releases/latest)
 [Phantomjs](http://phantomjs.org/) *unofficial* binaries for raspberry pi.
 
 PhantomJS doesn't provide packages for arm, so these packages are here
