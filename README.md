@@ -33,7 +33,7 @@ binaries have more dependencies than they should and are thus bound to a specifi
 
 For v2.1.1, you should be able to use the binaries on either wheezy or jessie.
 ### arm64/aarch64
-This is an **experimental build** of 2.1.1. It should work at least on arm64 debian stretch.
+This is an **experimental build** of 2.1.1. The [last build](https://github.com/fg2it/phantomjs-on-raspberry/releases/tag/v2.1.1-jessie-stretch-arm64) should work at least on arm64 debian jessie and stretch.
 
 ## License
 see PhantomJS [license](https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD).
